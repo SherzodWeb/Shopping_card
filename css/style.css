@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Nunito', sans-serif;
+}
+/*container*/
+.container{
+	width: 1440px;
+	margin: 0px auto;
+}
+.container_content{
+	width: 83.4%;
+	margin: 25px auto;
+}
+/*header*/
+.header{
+	display: flex;
+	flex-direction: column;
+}
+/*header_top*/
+.header_top{
+	display: flex;
+	justify-content: space-between;
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+	padding-bottom: 20px; 
+}
+.header_top_left, .header_top_right{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.header_top_left a, .header_top_right a{
+	text-decoration: none;
+	margin-right: 20px;
+	font-size: 16px;
+	line-height: 21.82px;
+	color: #222;
+	transition: 0.3s;
+}
+.header_top_left a:hover, .header_top_right a:hover {
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+}
+/*header_item*/
+.header_item {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.header_item_left {
+	margin-top: 180px;
+}
+.header_item_left_play{
+	display: flex;
+	align-items: center;
+}
+.header_item_left_play p {
+	font-size: 16px;
+	margin-left: 10px;
+}
+.shopping{
+	font-size: 42px;
+	font-weight: 400;
+	margin-top: 25px;
+}
+.see_now{
+	margin-top: 20px;
+}
+.img_team {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+}
+.img_team img {
+	width: 166.20px;
+	height: 47.76px;
+}
+.Group1 {
+	margin-top: 5px;
+}
+/*img box 1*/
+.imgbox_1{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 100px;
+}
+.imgbox_1_right {
+	margin-top: 300px;
+}
+.p1 {
+	font-size: 36px;
+}
+.p2, .p3{
+	font-size: 18px;
+	margin-top: 15px;
+}
+.imgbox_2 {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 150px;
+}
+.imgbox_2_left {
+	margin-top: 220px;
+}
+.p01 {
+	font-size: 36px;
+}
+.p02, .p03, .p04 {
+	margin-top: 15px;
+}
+.cashback {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 150px;
+}
+.p001 {
+	font-size: 36px;
+}
+.p002 {
+	font-size: 18px;
+	line-height: 25.92px;
+}
+.cashback a{
+	margin-top: 50px;
+	text-decoration: none;
+	color: #222;
+	font-size: 18px;
+	padding: 10px 40px;
+	border: 1px solid #000;
+	border-radius: 48px;
+}
+/*logo team*/
+.logo_team {
+	display: flex;
+	flex-direction: column;
+	margin-top: 100px;
+	flex-wrap: wrap;
+}
+.logo_team_top{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo_team_bottom {
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+}
+/* img box 3*/
+.imgbox_3 {
+	margin-top: 100px;
+	display: flex;
+	justify-content: space-between;
+	color: #222;
+}
+.imgbox_3_left {
+	margin-top: 200px;
+}
+.box3_p1 {
+	font-size: 36px;
+}
+.box3_p2 {
+	font-size: 18px;
+	line-height: 25.92px;
+	margin-top: 22px;
+}
+.Group7 {
+	margin-left: 10px;
+}
+.imgbox_3_left img {
+	margin-top: 15px;
+}
+/* img box 4*/
+.imgbox_4 {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 150px;
+}
+.imgbox_4_right{
+	margin-top: 145px;
+}
+.box4_p1 {
+	font-size: 36px;
+}
+.box4_p2, .box4_p3 {
+	font-size: 18px;
+	margin-top: 22px;
+}
+/* img box 5*/
+.imgbox_5 {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 150px;
+}
+.imgbox_5_left {
+	margin-top: 200px;
+}
+.box5_p1 {
+	font-size: 36px;
+}
+.box5_p2, .box5_p3 {
+	font-size: 18px;
+	margin-top: 15px;
+}
+/* img box 6*/
+.imgbox_6 {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 190px;
+	border-bottom: 1px solid #CBD6E2;
+	padding-bottom: 125px; 
+}
+.imgbox_4_right {
+	margin-top: 90px;
+}
+.box6_p1 {
+	font-size: 36px;
+}
+.box6_p2, .box6_p3 {
+	font-size: 18px;
+	margin-top: 15px;
+}
+.box6_btn {
+	margin-top: 15px;
+	display: flex;
+}
+.Group11 {
+	margin-left: 20px;
+}
+/*bottom*/
+.bottom_box {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+.learn p {
+	font-size: 16px;
+}
+.learn ul {
+	margin-top: 33px;
+	list-style: none;
+}
+.learn ul li{
+	margin-top: 12px;
+}
+.learn ul li a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #222;
+	transition: 0.3s;
+}
+.learn ul li a:hover {
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+}
+.Group8 {
+	margin-top: 50px;
+	margin-left: 60px;
+}
+.bottom_item {
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-around;
+	padding-left: 15px;
+}
+.bottom_item p {
+	font-size: 12px;
+	color: #aaa;
+}
